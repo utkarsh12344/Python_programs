@@ -1,0 +1,72 @@
+x=("john","harry","marry","singh","krish")
+print(x)
+print(x[2])
+x=("john","harry","marry","singh","krish")
+y=list(x)
+y[0]="krish"
+x=tuple(y)
+print(x)
+
+x=("john","harry","marry","singh","krish")
+y=list(x)
+y.append("horny")
+x=tuple(y)
+print(x)
+
+#unpacking atuple
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+#dictionaries
+
+thisdict={
+    "brand":"ford",
+    "price":"high",
+    "age":98,
+    "year":1999
+}
+print(thisdict)
+
+dog={
+    "breed":"german shephard",
+    "gender":"male",
+    "height":50,
+    "weight":90
+}
+print(dog)
+print(type(dog))
+print(len(dog))
+
+x=dog.keys()
+print(x)
+x=dog.values()
+print(x)
+
+x=dog.items()
+print(x)
+
+x=dog.items()
+dog["year"]=2020
+print(x)
+
+dog={
+    "breed":"german shephard",
+    "gender":"male",
+    "height":50,
+    "weight":90
+}
+if "height" in dog:
+    print("yes 'height' is present in dog")
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x, y in thisdict.items():
+  print(x, y)

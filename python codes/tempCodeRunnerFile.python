@@ -1,0 +1,2 @@
+username=input("enter usreame:")
+# print("your name is:"+username)

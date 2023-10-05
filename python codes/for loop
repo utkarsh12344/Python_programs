@@ -1,0 +1,45 @@
+list=["banana","mango","apple","kiwi","chiku"]
+newlist= [x for x in list if "u" in x]
+print(newlist)
+newlist= [x for x in range(10)]
+print(newlist)
+newlist= [x for x in list if x!="apple"]
+print(newlist)
+newlist= [x for x in list ]
+print(newlist)
+newlist= ["hello" for x in list ]
+print(newlist)
+newlist = [x if x != "banana" else "orange" for x in list]
+print(newlist)
+#ascendeing sort -alphanumerically
+list=["banana","mango","apple","kiwi","chiku"]
+list.sort()
+print(list)
+#descending sort -alphanumerically
+list=["banana","mango","apple","kiwi","chiku"]
+list.sort(reverse=True)
+print(list)
+
+
+list=[29,188,21,4,67,785,23]
+list.sort()
+print(list)
+
+#pyhton nested loops---
+list=[29,188,21,4,67,785,23]
+list.sort(reverse=True)
+print(list)
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+sunset=["nice","beautiful","good"] 
+sunrise=["sundar","ati khubsurat","mohh"]
+
+for x in sunset:
+    for y in sunrise:
+        print(x,y)
